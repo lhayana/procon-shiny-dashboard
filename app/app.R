@@ -6,7 +6,7 @@ library('shiny')
 library('shinyWidgets')
 library('shinydashboard') #Personaliza dashboard
 
-dados = read.csv("C:/Users/Lhayana/Downloads/dashboard_com_r-dados/dashboard_com_r-dados/dados_limpos.csv")
+dados = read.csv("dados_limpos.csv")
 
 media_chamados_ano = dados %>%
                       group_by(anocalendario) %>%
